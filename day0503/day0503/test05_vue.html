@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <table border="1">
+        <tr>
+          <td>제목:</td>
+          <td>{{title}}</td>
+        </tr>
+
+        <tr>
+          <td>작성자:</td>
+          <td>{{author}}</td>
+        </tr>
+
+        <tr>
+          <td>작성일:</td>
+          <td>{{writeDate}}</td>
+        </tr>
+
+        <tr>
+          <td>내용:</td>
+          <td>{{content}}</td>
+        </tr>
+      </table>
+      <button v-on:click="myClick">절대 누르지 마세요.</button>
+      <input type="text" v-model="keyword" /><button v-on:click="searchClick">검색</button>
+
+      <table border="1">
+        <tr>
+          <th>이미지</th>
+          <th>상품명</th>
+          <th>최저가</th>
+          <th>링크</th>
+        </tr>
+        <tr v-for="item in items" key>
+          <td><img v-bind:src="item.image" width="200px" /></td>
+          <td v-html="item.title"></td>
+          <!-- <td v-text="item.title"></td> -->
+          <td>{{item.lprice}}</td>
+          <td><a v-bind:href="item.link">[바로가기]</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+      // Vue.comment({});
+      new Vue({
+        el: "#app", // Vue가 달라붙을 대상 div
+
+        // 현재 new 하는 Vue 인스턴스에서는 이렇게 써도 되지만
+        // 뒤에 컴포넌트는 이렇게 data 안됨
+        // data:{},
+        // 인스턴스는 위에 처럼 객체도 되고 , 아래처럼 객체 리턴하는 함수도 됨.
+        // 컴포넌트때문에 아래로 연습하는 거임
+        data() {
+          return {
+            // return 되는 객체가 현재 뷰에서 보여줄 데이터가 됨.
+            title: "제목",
+            author: "조준희",
+            writeDate: new Date(),
+            content: "ㅋㅋㅋ",
+            keyword: "너구리",
+            items: [],
+          };
+        },
+        methods: {
+          myClick() {
+            console.log("누르지 말랬더니!!!");
+            // 원래는 백엔드한테 데이터 달라고 해야하함
+            //지금 가짜로 받아온적
+            let data = {
+              title: "vue.js 참 쉽죠",
+              author: "yangyu",
+              writeDate: "2023-05-03",
+              content: "완전 거짓말인듯...",
+            };
+
+            this.title = data.title;
+            this.author = data.author;
+            this.writeDate = data.writeDate;
+            this.content = data.content;
+          },
+          searchClick() {
+            let url = "http://192.168.214.40:7777/bookcafe/naver/";
+            fetch(url + this.keyword)
+              .then(function (resp) {
+                return resp.json();
+              })
+              .then((data) => {
+                this.items = data.items;
+                console.log(this.items);
+              });
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

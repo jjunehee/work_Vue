@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("outer this", this);
+
+      let f1 = function () {
+        console.log("f1 this", this);
+      };
+
+      function f2() {}
+
+      f1();
+      ///////////////////////////////////////////
+      let obj = {
+        name: "jjh",
+        aa: function () {
+          // 일반 함수는 선언되는 시점에 this가 결정된다.
+          console.log("aa this", this);
+        },
+        bb() {
+          console.log("bb call");
+          obj.aa();
+        },
+      };
+      obj.aa();
+      obj.bb();
+
+      /////////////////////////////////////////////
+      // arrow function의 this는 선언된 시점의 this가 아닌, 호출되는 시점의 this를 가리킨다.
+      // 따라서 밖에서 호출했다면 window를 가리킴
+      let obj2 = {
+        name: "조준희",
+        cc: () => {
+          console.log("cc this", this);
+        },
+        dd() {
+          //vue에서는 무조건 객체를 하나 만들어서 그 안에 프로퍼티 가지고 작업을 많이 함.
+          console.log("dd this", this);
+          obj2.cc();
+
+          fetch(url).then();
+        },
+      };
+
+      obj2.cc();
+      obj2.dd();
+    </script>
+  </body>
+</html>

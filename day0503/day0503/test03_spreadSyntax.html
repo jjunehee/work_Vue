@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const arr1 = [10, 20, 30, 40];
+      //   const arr1copy = arr1; // 이게 얕은 복사가 맞음!!
+      //   arr1copy[0] = 999; // 그렇기 때문에 이렇게 하면 원본이 훼손됨
+      //   console.log(arr1);
+
+      //   // 만약 깊은 복사를 하려면
+      //   const arr2 = [10, 20, 30, 40];
+      //   const arr2copy = [];
+      //   for (let i = 0; i < arr1.length; i++) {
+      //     arr2copy.push(arr2[i]);
+      //   }
+      //   arr1copy[0] = 999;
+      //   console.log(arr2);
+
+      // spread 나와서 깊은복사 편해짐
+      const arr1copy = [...arr1]; // 대입연산 오른쪽에서 오도도도 다져서 펼친다음에 왼쪽에 넣어주기
+      arr1copy[0] = 999;
+      console.log(arr1);
+      //////////////////////////////////////
+      const arr2 = [
+        { name: "염동엽", status: "아픔" },
+        { name: "배수빈", status: "졸림" },
+      ];
+
+      //깊은 복사가 되는 거긴함. 새로운 배열 생성해서 arr2[0], arr2[1] 하나하나 복사해줌
+      // 다만 그 하나하나가 객체의 주소들인지라.. 객체가 공유되는 상황이 생겨버리긴 함.
+      const arr2copy = [...arr2];
+
+      // 만약 진짜로 객체 자체를 따로 new 생성해서 별개로 객체를 만들고 싶다면,
+      // arr2 객체배열을 문자열화한다음에 다시 json화 하고 그거를 할당하면 됨.
+      // real deep copy
+      const arr2deepdeepcopy = JSON.parse(JSON.stringify(arr2));
+
+      arr2deepdeepcopy[0].name = "수민";
+      console.log(arr2);
+      console.log(arr2deepdeepcopy);
+      ///////////////////////////////////////////
+      const arr3 = [1, 2];
+      const arr4 = [3, 4];
+      const merge3_4 = [...arr3, 10, 5555555555555, ...arr4];
+      console.log(merge3_4);
+
+      const user = { name: "yangyu", age: 30 };
+      const info = { address: "daejeon", job: "teacher" };
+      const userinfo = { ...user, ...info };
+      console.log(userinfo);
+      /////////////////////////////////////////////////
+      const arr5 = [1, 2, 3, 4, 5];
+      const [a0, a1, ...remain] = arr5;
+      console.log(a0, remain);
+
+      const person = { name: "양유", age: 30, phone: "010-1234-5676" };
+      const { name: myName, ...ttt } = person;
+      console.log(myName, ttt);
+    </script>
+  </body>
+</html>

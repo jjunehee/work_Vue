@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let user = {
+        id: "ssafy",
+        name: "yangyu",
+        age: 30,
+        phone: "010-1234-5678",
+      };
+      //만약 백엔드가 json 객체 데이터를 주면 이런식으로 뽑아 썼어야 함.
+      // 객체로 받아서 객체에서 원하는 property를 뽑아 써야했음.
+      function print(data) {
+        let id = data.id,
+          name = data.name,
+          age = data.age;
+      }
+      ///////////////////////////////////////////
+      // 메소드 호출을 받을때
+      // destructuring으로 받을 때, 미리 쪼개서 원하는 것만 뽑아 받을 수 있음
+      // 받는 쪽에서 받은 데이터를 쪼개서 원하는 것만 뽑아 받을 수 있음
+      function print2({ id, name, age }) {
+        console.log(id, name, age);
+      }
+      print2(user);
+
+      let { age, phone } = user;
+      console.log(age, phone);
+
+      function lib() {
+        return { title: "spring framework", author: "jjh", price: 30000 };
+      }
+
+      let { title: t, author: p } = lib();
+      console.log(t, p);
+      ///////////////////////////////////////////////////////////
+
+      //////////////////////////////////////////
+      // 메소드를 호출 할때~ 는 다음 spreadSyntax~~~
+    </script>
+  </body>
+</html>
