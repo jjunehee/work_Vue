@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <component-a :숫자="number"></component-a>
+      <component-b @plus="plus" @minus="minus" @reset="reset" @send-num="calc"></component-b>
+    </div>
+  </body>
+  <script type="module">
+    import ComponentA from "./test03/ComponentA.js";
+    import ComponentB from "./test03/ComponentB.js";
+
+    new Vue({
+      el: "#app",
+      components: { ComponentA, ComponentB },
+
+      data() {
+        return {
+          number: 0,
+        };
+      },
+
+      methods: {
+        plus() {
+          this.number++;
+        },
+        minus() {
+          this.number--;
+        },
+        reset() {
+          this.number = 0;
+        },
+        calc(receive) {
+          if (receive == 0) {
+            this.number = 0;
+          } else {
+            this.number += receive;
+          }
+        },
+      },
+    });
+  </script>
+</html>

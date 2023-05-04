@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <component-a :cup="bus"></component-a>
+      <component-b :cup="bus"></component-b>
+    </div>
+  </body>
+  <script type="module">
+    import ComponentA from "./ComponentA.js";
+    import ComponentB from "./ComponentB.js";
+
+    const bus = new Vue();
+    new Vue({
+      el: "#app",
+
+      components: { ComponentA, ComponentB },
+
+      data() {
+        return {
+          number: 0,
+          bus: bus,
+        };
+      },
+    });
+  </script>
+</html>
