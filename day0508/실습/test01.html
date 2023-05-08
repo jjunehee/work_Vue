@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" v-model="firstName" />
+      <input type="text" v-model="lastName" />
+      <h2>Full Name : {{fullName}}</h2>
+      <h2>Full Name(10글자) : {{fullName | myFilter}}</h2>
+    </div>
+  </body>
+
+  <script>
+    new Vue({
+      el: "#app",
+      // template : ``, // 인스턴스가 아니라 컴포넌트 쪽에서 자기 담당 html
+      data() {
+        // data: function() {}, Concide Method
+        return {
+          firstName: "Junhee",
+          lastName: "Cho",
+          //   fullName: "",
+        };
+      },
+
+      methods: {},
+      filters: {
+        // 필터는 일단 입력값이 무조건 있어야 함.
+        myFilter(inputData) {
+          return inputData.toUpperCase().substring(0, 10);
+        },
+      },
+      created() {}, // created : function() {}, Concise Method
+
+      watch: {
+        // data에 있는 변수를 지켜보고 있음
+        lastName() {
+          console.log("호적 파였대요~~~ 얼레리 꼴레리~~~~");
+        },
+      }, // 능동적으로 쳐다보는거
+      computed: {
+        // data에 없는 변수를 만들어 내는 느낌
+        fullName() {
+          return this.firstName + this.lastName;
+        },
+      }, // 수동적
+      components: {},
+      props: [], // 인스턴스가 아니라 컴포넌트쪽에 넣는 애.
+    });
+  </script>
+</html>
