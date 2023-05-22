@@ -1,0 +1,187 @@
+[2m2023-05-17 00:21:09.039[0;39m [32m INFO[0;39m [35m2547[0;39m [2m---[0;39m [2m[(181)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2023-05-17 09:32:50.928[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2023-05-17 09:32:50.929[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2023-05-17 09:32:51.818[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2023-05-17 09:32:51.880[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 950 ms
+[2m2023-05-17 09:32:52.369[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2023-05-17 09:32:52.513[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2023-05-17 09:33:27.961[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-05-17 09:33:27.962[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2023-05-17 09:33:27.991[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:33:28.990[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2023-05-17 09:35:36.524[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:35:48.996[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:36:05.734[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:36:33.606[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhY2Nlc3MtdG9rZW4iLCJpYXQiOjE2ODQyODM3OTMsImV4cCI6MTY4NDI4Mzg1MywidXNlcmlkIjoic3NhZnkifQ.UyncaBHwMkI4J0vhAdpJQl3HfQuYyE2t6iJv6fiOTRA
+[2m2023-05-17 09:36:33.606[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZWZyZXNoLXRva2VuIiwiaWF0IjoxNjg0MjgzNzkzLCJleHAiOjE2ODU0OTMzOTMsInVzZXJpZCI6InNzYWZ5In0.ag0fWiUZSJLzwiOXJr_LLLULCuChzOmnXzNhcGUGMdg
+[2m2023-05-17 09:36:33.631[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:36:50.901[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhY2Nlc3MtdG9rZW4iLCJpYXQiOjE2ODQyODM4MTAsImV4cCI6MTY4NDI4Mzg3MCwidXNlcmlkIjoic3NhZnkifQ.PBQp4SdK2snmtbw3IDWijSZpPMa1xLCnGGaOe0T_ml8
+[2m2023-05-17 09:36:50.902[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZWZyZXNoLXRva2VuIiwiaWF0IjoxNjg0MjgzODEwLCJleHAiOjE2ODU0OTM0MTAsInVzZXJpZCI6InNzYWZ5In0.s_FcJfv49hhCmQvFfyLc9jJ5hNEB7CdgTukasVBU8Z0
+[2m2023-05-17 09:36:50.907[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:36:54.747[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:36:57.634[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:37:06.502[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
+[2m2023-05-17 09:37:07.629[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:38:00.613[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+[2m2023-05-17 09:38:00.740[0;39m [33m WARN[0;39m [35m18684[0;39m [2m---[0;39m [2m[       Thread-5][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[2m2023-05-17 09:38:01.193[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2023-05-17 09:38:01.206[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 338 ms
+[2m2023-05-17 09:38:01.249[0;39m [33m WARN[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController': Unsatisfied dependency expressed through field 'jwtService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtServiceImpl' defined in file [C:\SSAFY\workspace\work_Vue\day0517\하이쌤이드리는마지막선물\VueAPI\target\classes\com\ssafy\vue\model\service\JwtServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ssafy.vue.model.service.JwtServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	JwtServiceImpl2 cannot be resolved to a type
+
+[2m2023-05-17 09:38:01.255[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2023-05-17 09:38:01.275[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController': Unsatisfied dependency expressed through field 'jwtService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtServiceImpl' defined in file [C:\SSAFY\workspace\work_Vue\day0517\하이쌤이드리는마지막선물\VueAPI\target\classes\com\ssafy\vue\model\service\JwtServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ssafy.vue.model.service.JwtServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	JwtServiceImpl2 cannot be resolved to a type
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ssafy.vue.VueApiApplication.main(VueApiApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtServiceImpl' defined in file [C:\SSAFY\workspace\work_Vue\day0517\하이쌤이드리는마지막선물\VueAPI\target\classes\com\ssafy\vue\model\service\JwtServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ssafy.vue.model.service.JwtServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	JwtServiceImpl2 cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ssafy.vue.model.service.JwtServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	JwtServiceImpl2 cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	JwtServiceImpl2 cannot be resolved to a type
+
+	at com.ssafy.vue.model.service.JwtServiceImpl.<init>(JwtServiceImpl.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 38 common frames omitted
+
+[2m2023-05-17 09:38:14.310[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2023-05-17 09:38:14.323[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 283 ms
+[2m2023-05-17 09:38:14.422[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2023-05-17 09:38:14.463[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2023-05-17 09:38:14.514[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2023-05-17 09:38:32.323[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2023-05-17 09:38:32.877[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2023-05-17 09:38:32.890[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 310 ms
+[2m2023-05-17 09:38:32.986[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2023-05-17 09:38:33.023[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2023-05-17 09:38:33.073[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2023-05-17 09:38:46.309[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2023-05-17 09:38:46.311[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[2m2023-05-17 09:40:05.857[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:12.424[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhY2Nlc3MtdG9rZW4iLCJpYXQiOjE2ODQyODQwMTIsImV4cCI6MTY4NDI4NDAyMiwidXNlcmlkIjoic3NhZnkifQ.acLUwKzenYbXc4t3vSOsNNNgUM_crTg_tbF1aJf1p8I
+[2m2023-05-17 09:40:12.424[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZWZyZXNoLXRva2VuIiwiaWF0IjoxNjg0Mjg0MDEyLCJleHAiOjE2ODQyODQwNDIsInVzZXJpZCI6InNzYWZ5In0.Dm4L-kgbB-L2h1PANjaQS9ibA4vXs4VuiV-qmOaojJc
+[2m2023-05-17 09:40:12.429[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:15.812[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:16.675[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:16.690[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:22.586[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:23.418[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2023-05-17T09:40:22Z. Current time: 2023-05-17T09:40:23Z, a difference of 1417 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2023-05-17 09:40:23.418[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
+[2m2023-05-17 09:40:23.427[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZWZyZXNoLXRva2VuIiwiaWF0IjoxNjg0Mjg0MDEyLCJleHAiOjE2ODQyODQwNDIsInVzZXJpZCI6InNzYWZ5In0.Dm4L-kgbB-L2h1PANjaQS9ibA4vXs4VuiV-qmOaojJc, memberDto : com.ssafy.vue.model.MemberDto@52334a39
+[2m2023-05-17 09:40:23.430[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhY2Nlc3MtdG9rZW4iLCJpYXQiOjE2ODQyODQwMjMsImV4cCI6MTY4NDI4NDAzMywidXNlcmlkIjoic3NhZnkifQ.U_s_UuybT-5vJoMwD9QKiJlYBdFT5j8H7kWFTr_dA-Y
+[2m2023-05-17 09:40:23.430[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 정상적으로 액세스토큰 재발급!!!
+[2m2023-05-17 09:40:23.439[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:24.930[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:26.124[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:26.136[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:27.450[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:28.226[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:28.239[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:30.099[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:30.818[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:30.829[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:32.043[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:32.817[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:32.829[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:34.082[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:34.929[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2023-05-17T09:40:33Z. Current time: 2023-05-17T09:40:34Z, a difference of 1928 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2023-05-17 09:40:34.929[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
+[2m2023-05-17 09:40:34.933[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZWZyZXNoLXRva2VuIiwiaWF0IjoxNjg0Mjg0MDEyLCJleHAiOjE2ODQyODQwNDIsInVzZXJpZCI6InNzYWZ5In0.Dm4L-kgbB-L2h1PANjaQS9ibA4vXs4VuiV-qmOaojJc, memberDto : com.ssafy.vue.model.MemberDto@477cee1d
+[2m2023-05-17 09:40:34.934[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhY2Nlc3MtdG9rZW4iLCJpYXQiOjE2ODQyODQwMzQsImV4cCI6MTY4NDI4NDA0NCwidXNlcmlkIjoic3NhZnkifQ.WLtsx96g0DmqfoPQnhLFJCJ_OD3oAYPxvcR997KAIXs
+[2m2023-05-17 09:40:34.934[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 정상적으로 액세스토큰 재발급!!!
+[2m2023-05-17 09:40:34.940[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:36.083[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:37.450[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:37.462[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:39.954[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:40.777[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:40.788[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:42.628[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:43.248[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2023-05-17 09:40:43.260[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
+[2m2023-05-17 09:40:44.987[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:40:45.682[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2023-05-17T09:40:44Z. Current time: 2023-05-17T09:40:45Z, a difference of 1682 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2023-05-17 09:40:45.682[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
+[2m2023-05-17 09:40:45.685[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZWZyZXNoLXRva2VuIiwiaWF0IjoxNjg0Mjg0MDEyLCJleHAiOjE2ODQyODQwNDIsInVzZXJpZCI6InNzYWZ5In0.Dm4L-kgbB-L2h1PANjaQS9ibA4vXs4VuiV-qmOaojJc, memberDto : com.ssafy.vue.model.MemberDto@6a4f9c1c
+[2m2023-05-17 09:40:45.686[0;39m [31mERROR[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2023-05-17T09:40:42Z. Current time: 2023-05-17T09:40:45Z, a difference of 3686 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2023-05-17 09:40:45.686[0;39m [32mDEBUG[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 리프레쉬토큰도 사용불!!!!!!!
+[2m2023-05-17 09:41:12.452[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2023-05-17 09:42:05.119[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2023-05-17 09:42:05.253[0;39m [33m WARN[0;39m [35m18684[0;39m [2m---[0;39m [2m[      Thread-15][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[2m2023-05-17 09:42:05.689[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2023-05-17 09:42:05.702[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 303 ms
+[2m2023-05-17 09:42:05.795[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2023-05-17 09:42:05.836[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2023-05-17 09:42:05.877[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2023-05-17 11:40:10.686[0;39m [32m INFO[0;39m [35m18684[0;39m [2m---[0;39m [2m[on(2)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
