@@ -3,12 +3,13 @@
 // 위의 형식을 축약.
 // 함수의 이름이 없는 익명함수 이므로 반드시 변수에 담아서 사용.
 // const name = (param) => { };
-
+function info() {}
 // 매개변수 따른 설정
 // () => {}; // 매개변수가 없을 경우.
 // (param) => {}; // 매개변수가 한개 있을 경우. (param)의 소괄호 생략 가능.
 // (param1, param2) => {}; // 매개변수가 여러개 있을 경우. (param1, param2)의 소괄호 생략 불가능.
 
+const info = (x, y) => {};
 // function body 설정.
 // body의 내용이 한줄일 경우.
 // (x) => {
@@ -103,3 +104,10 @@ const users = {
 };
 console.log(users);
 users.info();
+
+const data = {
+  id: "ssafy",
+  pw: "1234",
+};
+
+export { data };

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" v-model="newBook.title" placeholder="제목" />
+      <input type="text" v-model="newBook.author" placeholder="작가" />
+      <button @click="addBook">추가</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>제목</th>
+            <th>작가</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="book in books" :key="book.id">
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            books: [],
+            newBook: {
+              title: "",
+              author: "",
+            },
+          };
+        },
+        methods: {
+          addBook() {
+            // 새로운 책 객체 생성
+            const book = {
+              id: Date.now(),
+              title: this.newBook.title,
+              author: this.newBook.author,
+            };
+
+            // books 배열에 책 객체 추가
+            this.books.push(book);
+
+            // 입력 필드 초기화
+            this.newBook.title = "";
+            this.newBook.author = "";
+          },
+        },
+        updated() {
+          // books 배열이 업데이트된 후에 실행되는 로직
+          console.log("books 배열이 업데이트되었습니다.");
+          // 테이블에 대한 DOM 조작 또는 외부 라이브러리와의 통합 등을 수행할 수 있습니다.
+          // 예를 들어, 테이블에 스크롤 이동 등의 작업을 여기서 수행할 수 있습니다.
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -64,6 +64,8 @@ function showUser2({ id, name, age }) {
 }
 showUser2(user);
 
+function showUser3({ id, name, age }) {}
+
 // 객체를 return 하는 함수.
 
 // ES6 이전
